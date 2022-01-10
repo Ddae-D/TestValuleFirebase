@@ -2,8 +2,21 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
-  production: false
+export const environment = 
+{
+  production: false,
+
+  //Init config firebase
+  firebase: {
+    projectId: 'conectame-local-project',
+    appId: '1:990327248379:web:cd2c536410bc07b37be75e',
+    databaseURL: 'https://conectame-local-project-default-rtdb.firebaseio.com',
+    storageBucket: 'conectame-local-project.appspot.com',
+    apiKey: 'AIzaSyBqQcFGEv9XCJgLcnYKUozjOJTiVPtS5I0',
+    authDomain: 'conectame-local-project.firebaseapp.com',
+    messagingSenderId: '990327248379',
+  }
+  //End config firebase
 };
 
 /*

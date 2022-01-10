@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "conectame-local-project": {
+      "hosting": {
+        "conectionFirebaseProject": [
+          "conectame-local-project"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "conectame-local-project"
+  }
+}
